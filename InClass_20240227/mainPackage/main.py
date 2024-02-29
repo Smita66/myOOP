@@ -2,6 +2,7 @@
 # Add an import statement for Vehicle class
 from vehiclePackage.vehicleClass import *
 from vehiclePackage.hybridClass import Hybrid
+from vehiclePackage.LexusClass import Lexus
 
 if __name__ == "__main__":
     # Instantiate an object of type Hybrid
@@ -9,6 +10,8 @@ if __name__ == "__main__":
     # Invoke the printType method using the HJybrid object we just created
     myPrius.printType()
     
+    mylexus = Hybrid ("hybrid", "Camry", "Lexus", 200)
+    mylexus.printType()
     
     '''
     # Instantiate an object of type Vehicle
